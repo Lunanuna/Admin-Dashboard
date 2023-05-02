@@ -18,7 +18,7 @@ body{
 }
 
 main{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     margin: 10px;
     
@@ -36,7 +36,7 @@ section{
 
 
 h1{
-    font-size: 5rem;
+    font-size: 50px;
     text-align: center;
     background-color: #f8fafc;
     /* border-radius: 3px; */
@@ -45,7 +45,7 @@ h1{
 }
 
 svg{
-    width: 4.5rem;
+    width: 45px;
     fill: gold;
     position: relative;
     top: 13px;
@@ -54,7 +54,7 @@ svg{
 li{
     list-style: none;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 30px;
     margin-top: 20px;
     padding-left: 15px;
 }
@@ -73,7 +73,7 @@ li>a:hover{
 /* CONTAINER-2 */
 .container-2{
     display: grid;
-    font-size: 2.5rem;
+    font-size: 25px;
     padding: 10px;
    
 }
@@ -84,7 +84,7 @@ li>a:hover{
 input{
     border-radius: 20px;
     border: gold dashed 5px;
-    font-size: 1.8rem;    
+    font-size: 18px;    
     padding: 7px 15px;
     box-shadow: 0 0 4px greenyellow;
 }
@@ -111,7 +111,7 @@ input{
     background-color: #f8fafc;
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 15px;
     margin-top: -20px;
     margin-right: 25px;
     padding: 10px;
@@ -133,7 +133,7 @@ input{
 
 .user-btn > a{
     background-color: #111827;
-    font-size: 2rem;
+    font-size: 20px;
     color: #f8fafc;
     padding: 2px 12px;
     border-radius: 10px;
@@ -154,7 +154,7 @@ input{
 .hashes{
     overflow: hidden;
     overflow-wrap: inherit;
-    font-size: 1.6rem;
+    font-size: 16px;
     background-color: rgb(152, 152, 152);
     /* background: linear-gradient(to top, darkgrey 0%,grey 1%, lightgrey 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%); */
     border-radius: 3px;
@@ -162,8 +162,8 @@ input{
     border-bottom: 4px solid #111827;
     border-right: 4px dashed gold;
     box-shadow: 2px 3px 7px rgba(46, 46, 45, 0.5);  
-    padding: 5px; 
-    padding-top: 0px;
+    padding: 10px; 
+    padding-top: 5px;
 }
 
 .hashes>span{
@@ -178,13 +178,13 @@ hr{
 .container-4{
     padding: 10px;
     display: grid;
-    grid-template-rows: 3.5rem 1fr 3rem 1fr;
-    gap: 1rem;
+    grid-template-rows: 35px 1fr 30px 1fr;
+    gap: 10px;
 }
 
 .container-4>p{
     color:#f8fafc;
-    font-size: 2rem;
+    font-size: 20px;
     background: rgba(46, 46, 45, 0.1);
     
    
@@ -192,7 +192,7 @@ hr{
 
 .container-4>p>svg{
     fill: white;
-    width: 2.3rem;
+    width: 23px;
     position: relative;
     top: 5px;
     left: 5px;
@@ -211,11 +211,11 @@ hr{
     box-shadow: 2px 3px 7px rgba(46, 46, 45, 0.5);
    
     padding: 10px;
-    font-size: 2rem;
+    font-size: 20px;
 }
 
 .big-hashes>p{
-    font-size: 1.6rem;
+    font-size: 16px;
 }
 
 p>span{
@@ -269,15 +269,15 @@ p>span{
     }
 
     h1{
-        font-size: 4rem;
+        font-size: 40px;
     }
 
     li{
-        font-size: 2.5rem;
+        font-size: 25px;
     }
 
     svg{
-       width: 4rem; 
+       width: 40px; 
     }
 
     
@@ -320,12 +320,12 @@ p>span{
     .user-btn{
         grid-column: 11/21;
         /* grid-row: 5/7; */
-        gap: 2rem;
+        gap: 20px;
         padding: 15px;
     }
 
     .user-btn>a{
-        font-size: 3rem;
+        font-size: 30px;
     }
 
     main .container-3{
@@ -342,23 +342,23 @@ p>span{
     }
 
     h1{
-        font-size: 5rem;
+        font-size: 50px;
     }
 
     li{
-        font-size: 3rem;
+        font-size: 30px;
     }
 
     svg{
-       width: 4.5rem; 
+       width: 45px; 
     }
 
     .user-greet{
-        font-size: 3rem;
+        font-size: 30px;
     }
 /* section3,4 */
     .hashes, .big-hashes>p{
-        font-size: 2.2rem;
+        font-size: 22px;
     }
     .hashes{
         padding: 15px;
@@ -368,7 +368,7 @@ p>span{
     }
 
     .big-hashes{
-        border-radius: 3px;
+    border-radius: 3px;
     border-top: 6px solid #111827;
     border-bottom: 6px solid #111827;
     border-right: 6px dashed gold;
